@@ -1,0 +1,7 @@
+.CardItemEdit {
+  width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+  outline: 2px solid black;
+}
