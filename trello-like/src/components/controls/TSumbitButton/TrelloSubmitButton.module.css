@@ -1,0 +1,15 @@
+.styledInput {
+  font-size: 1.35rem; 
+  outline: 2px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+
+  transition: outline 0.1s ease-in;
+}
+
+.styledInput:hover {
+  outline: 4px solid white;
+}

@@ -1,0 +1,67 @@
+.editorContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editorContainer h1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.editorContainer h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.typeSelectors {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectorsLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.selectorsLayout > label {
+  margin-right: 10px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTextarea {
+  margin: 10px;
+  border: 1px solid white;
+  height: 1.65rem;
+  width: 200px;
+  border-radius: 5px;
+  resize: none;
+  overflow: hidden;
+  text-align: center;
+
+  transition: border 0.1s ease-in;
+}
+
+.headerTextarea:focus {
+  border: 3px solid white;
+}

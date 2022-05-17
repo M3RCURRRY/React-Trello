@@ -51,6 +51,7 @@ class CardEdit extends React.Component {
             Edit menu
             <div className={styles.itemSelection}>
               <div className={styles.radioContainer}>
+                
                 <label className="selectionLabel">Note item</label>
                 <input
                   type="radio"
@@ -80,7 +81,6 @@ class CardEdit extends React.Component {
             </div>
             <input
               type="submit"
-              onSubmit={this.onSubmitHandler}
               value="Submit changes"
             />
           </form>

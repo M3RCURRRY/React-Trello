@@ -1,0 +1,16 @@
+.textArea {
+  margin: 10px;
+  border: 1px solid white;
+  height: 1.65rem;
+  width: 200px;
+  border-radius: 5px;
+  resize: none;
+  overflow: hidden;
+  text-align: center;
+
+  transition: border 0.1s ease-in;
+}
+
+.textArea:focus {
+  border: 3px solid white;
+}
