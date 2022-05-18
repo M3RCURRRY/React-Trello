@@ -1,5 +1,5 @@
 .TButton {
-  outline: 1px solid white;
+  outline: 2px solid white;
   border-radius: 5px;
 
   box-sizing: border-box;
@@ -14,5 +14,5 @@
 
 .TButton:hover {
   text-shadow:1px 1px 10px rgb(169, 169, 169), 1px 1px 10px rgb(176, 174, 174);
-  outline: 3px solid white;
+  outline: 4px solid white;
 }

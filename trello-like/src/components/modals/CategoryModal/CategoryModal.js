@@ -76,7 +76,7 @@ class CategoryModal extends React.Component {
                   <label>Timetracker</label>
                   <TrelloRadioButton
                     name="cType"
-                    value="timetrack"
+                    value="timetracker"
                     onChange={this.onRadioChangeHandler}
                   />
                 </div>
