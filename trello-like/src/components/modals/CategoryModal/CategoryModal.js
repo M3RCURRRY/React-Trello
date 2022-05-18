@@ -36,8 +36,6 @@ class CategoryModal extends React.Component {
     this.setState({
       categoryHeader: e.target.value,
     });
-
-    console.log(this.state.categoryHeader);
   }
 
   onSubmitHandler(e) {

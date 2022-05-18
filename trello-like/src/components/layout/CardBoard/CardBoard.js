@@ -9,6 +9,7 @@ class CardBoard extends React.Component {
   render() {
     return(
       <div className={styles.boardClass}>
+        {this.props.children}
       </div>
     )
   }
