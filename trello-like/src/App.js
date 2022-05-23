@@ -13,6 +13,7 @@ class App extends React.Component {
 
     this.state = {
       isCategorModalOpen: false,
+      isCardEditModalOpen: false,
       cardData: [],
     };
 

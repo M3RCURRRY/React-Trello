@@ -1,0 +1,12 @@
+.checkBox {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 20px;
+  width: 20px;
+
+  transition: border 0.1s ease-in;
+}
+
+.checkBox:checked {
+  border: 10px solid white;
+}

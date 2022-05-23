@@ -1,5 +1,7 @@
 .noteContainer {
+  padding: 5px;
   width: 95%;
+  max-width: 400px;
   margin: 5px 10px 5px 10px;
   outline: 1px solid black;
   border-radius: 5px;

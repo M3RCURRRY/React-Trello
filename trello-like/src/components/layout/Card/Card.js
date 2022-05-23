@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Card.module.css";
 import Note from "./Note/Note";
+import Timetracker from "./Timetracker/Timetracker";
 
 class Card extends React.Component {
   constructor(props) {
@@ -16,7 +17,6 @@ class Card extends React.Component {
       <div className={styles.card}>
         <p className={styles.cardHeader}>{this.props.header}</p>
         <div className={styles.limiter}></div>
-        <p>{this.props.content}</p>
         {
           this.state.cardItems.map((cardItem) => {
             switch(cardItem) {
@@ -27,7 +27,7 @@ class Card extends React.Component {
                 return 1;
               case "timetracker":
                 console.log("Timetracker does not exists!");
-                return 1;
+                return <Timetracker />;
               default:
                 console.log("Default case");
             }
